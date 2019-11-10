@@ -1,0 +1,597 @@
+/**************************************basic css START****************************/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html{
+  background-color: #fff;
+  color: #555;
+  font-family: 'Arial' , sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.container_box{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.clearfix{
+  content: ' ';
+  clear: both;
+  display: table;
+}
+/**************************************basic css END****************************/
+/**************************************upper header START***********************/
+.upper_header{
+  background-color: #3B5997;
+  height: 82px;
+  width: 100%;
+}
+
+.upper_header_box{
+   padding-top: 13px;
+}
+
+.main_logo{
+  background-image: url('../images/FB_main_logo.png');
+  display: inline-block;
+  height: 34px;
+  width: 170px;
+  margin-top: 17px;
+}
+
+.main_logo a{
+  display: block; 
+  width: 170px;
+  height: 34px;
+  color: transparent;
+}
+
+.login_section{
+  float: right;
+  width: 380px;
+
+}
+
+.email input[type=text],
+.password input[type=password]
+{
+  width: 150px;
+  height: 22px;
+  margin: 5px 0px;
+  border: 1px solid #000;
+}
+
+.email{
+  width: 150px;
+  float: left;
+  text-align: left;
+  font-size: 13px;
+  color: #fff;
+  font-weight: normal;
+  margin: 0px 8px;
+
+}
+
+.password{
+  width: 150px;
+  float: left;
+  text-align: left;
+  font-size: 13px;
+  color: #fff;
+  font-weight: normal;
+  margin: 0px 3px;
+}
+
+.password a:link,
+.password a:visited{
+  color: #889dce;
+  text-decoration: none;
+  padding-bottom: 1px;
+}
+
+.password a:hover,
+.password a:active{
+  color: #889dce;
+  text-decoration: underline;
+
+}
+
+.login_button{
+  width: 50px;
+  float: left;
+}
+
+.login_button a:link,
+.login_button a:visited{
+   text-decoration: none;
+   color: #fff;
+   font-size: 12px;
+   padding: 4px 3px;
+   border: 1px solid #000;
+   font-weight: 600;
+   background-color: #688aca;
+   transition: all 0.5s ease-out;
+   display: inline-block;
+   margin: 18px 0px 0px 6px;
+}
+
+.login_button a:hover,
+.login_button a:active{
+   background-color: #3B5997;
+}
+/**************************************upper header END*************************/
+
+/***************************************sign up form START**********************/
+section{
+    background: linear-gradient(white, #D3D8E8); 
+    
+}
+
+.section_sign_up{
+  
+  width: 980px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.left_section{
+   float: left;
+
+}
+
+.left_section h4{
+   color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+.left_section img{
+    width: 537px;
+    height: 195px;
+}
+
+.right_section{
+  float: left;
+  max-width: 400px;
+  margin-left: 35px;
+}
+
+.heading_section{
+  text-align: left;
+  padding: 20px 0px;
+}
+
+.heading_section h2{
+   font-size: 36px;
+   color: #333;
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+
+.heading_section p{
+   margin: 10px 0px;
+}
+
+.mob input[type=text],
+.pass input[type=text] {
+   width: 100%;
+}
+
+.why_dob:link,
+.why_dob:visited{
+  font-size: 10px;
+  display: inline-block;
+  width: 38%;
+  text-decoration: none;
+  color: blue;
+}
+
+.why_dob:hover,
+.why_dob:active{
+  text-decoration: underline;
+  color: blue;
+}
+
+.ybr{
+     color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin: 7px 0px 7px 0px;
+}
+
+#sign_name,#sign_surname,#sign_mob,#sign_pass{
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid #c1c1c1;
+}
+
+#sign_mob{
+  margin: 9px 0px;
+}
+
+.birthday{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px 0px 5px 0px;
+}
+
+#day,#month,#year{
+    color: #1d2129;
+    font-size: 16px;
+    font-weight: normal;
+    border: 1px solid #bdc7d8;
+    padding: 2px;
+}
+
+.radio{
+  display: inline-block;
+  margin: 12px 0px;
+}
+
+label{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+
+.ybr a:link,
+.ybr a:visited{
+  text-decoration: none;
+  color: blue;
+}
+
+.ybr a:hover,
+.ybr a:active{
+  text-decoration: underline;
+  color: blue;
+}
+
+.last_word{
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-bottom: 36px;
+}
+
+.last_word a:link,
+.last_word a:visited{
+  color: blue;
+  text-decoration: none;
+}
+
+.last_word a:hover,
+.last_word a:active{
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.last_lang{
+  display: inline-block;
+  padding: 1px 10px;
+  border-radius: 3px;
+  border: 1px solid #bdc7d8;
+  font-weight: 600;
+  font-size: 18px !important;
+  color: #333;
+  text-decoration: none !important;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  padding: 5px 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color:  #bab1ab;
+
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  padding: 5px 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color:  #bab1ab;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  padding: 5px 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color:  #bab1ab;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  padding: 5px 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color:  #bab1ab;
+
+}
+
+button{
+    font-size: 19px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+/***************************************sign up form END************************/
+
+footer{
+  background-color: #fff;
+}
+
+.footer_section{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.footer_section ul li{
+  display: inline-block;
+}
+
+.footer_section ul li a{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.lang{
+  margin: 30px 0px 10px 1px;
+}
+
+.lang li a{
+  display: inline-block;
+  margin: 0px 3px;
+}
+
+.lang li a:hover{
+  text-decoration: underline;
+}
+
+.fb_option{
+  margin: 10px 0px 20px 0px;
+}
+
+.fb_option li a{
+  display: inline-block;
+  margin: 0px 3px;
+}
+
+
+.fb_option li a:hover{
+   text-decoration: underline;
+}
+
+.copyrght{
+  margin: 10px 0px 20px 0px;
+  font-size: 10px;
+}
+
+.mobile_view{
+      display: none;
+    }
+
+
+/**************************************Mobile view**********************************/
+
+
+
+/*******************************************Media Queries*****************************/
+@media only screen and (max-width:1020px){
+    .resp{
+      display: none;
+    }
+
+.mobile_view{
+      display: block;
+    }
+
+    .top_bar{
+    background: #3b5998;
+    box-sizing: border-box;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_logo{
+  background-image: url('../images/FB_main_logo.png');
+  background-size: cover;
+  display: inline-block;
+  height: 24px;
+  width: 123px;
+  margin-top: 0px;
+}
+
+.main_logo a{
+  display: block; 
+  width: 123px;
+  height: 24px;
+  color: transparent;
+}
+
+.login_section{
+  background-color: #eceff5;
+  width: 100%;
+}
+
+.inner_box{
+  width: 380px;
+  margin: 0 auto;
+}
+
+.inner_box input[type=text],
+.inner_box input[type=password]
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c1c1c1;
+}
+
+.inner_box input[type=text]{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-top: 15px;
+}
+
+.inner_box input[type=password]{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.inner_box input[type=button]{
+      display: block;
+      width: 100%;
+      text-shadow: 0 -1px rgba(0, 0, 0, .25);
+      border: none;
+      border-radius: 3px;
+      box-sizing: border-box;
+      position: relative;
+      -webkit-user-select: none;
+      z-index: 0;
+      font-size: 14px;
+      height: 36px;
+      line-height: 36px;
+      padding: 0 16px;
+      color: #fff;
+      font-weight: bold;
+      font-family: sans-serif;
+      -webkit-appearance: none;
+      background-color: #3578e5;
+      cursor: pointer;
+}
+
+.divider{
+  text-align: center;
+}
+
+.or{
+  font-weight: 100;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.or::before{
+  content: '';
+  display: inline-block;
+  background: #ccd0d5;
+  height: 1px;
+  width: 150px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.or::after{
+  content: '';
+  display: inline-block;
+  background: #ccd0d5;
+  height: 1px;
+  width: 150px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.cna{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cna a{
+   text-decoration: none;
+   color: #fff;
+   font-weight: 600;
+   font-size: 15px;
+   background: #00a400;
+   display: inline-block;
+   padding: 12px;
+   border-radius: 5px;
+}
+
+.links{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.links a:link,
+.links a:hover{
+   text-decoration: none;
+   font-size: 12px;
+   color: blue;
+}
+
+.links a:visited,
+.links a:active{
+   text-decoration: none;
+   font-size: 12px;
+   color: blue;
+}
+
+.mob_lang_sec{
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+
+.mob_lang li a{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.left_side{
+  float: left;
+}
+
+.right_side{
+  float: right;
+}
+
+.mob_last_section{
+  width: 100%;
+  text-align: center;
+}
+
+.mob_last_section p{
+  font-size: 14px;
+}
+
+}
+
+/*********************************END*****By NIRAJ NARKHEDE******************************/
